@@ -23,6 +23,7 @@
 
 - Vida laboral Oleksii 12/12/2024 (694 days alta; id 25)
 - Vida laboral Oleksii 07/05/2025 (849 days alta; id 79)
+- **Vida laboral Oleksii 11/09/2026 (1.341 days alta = 3y 8m 3d; id 168)** — obtained via Seguridad Social portal (portal.seg-social.gob.es → Informes y Certificados → Informe de tu vida laboral; NOT SEPE). CEA GLZ3Z-RRYM5-QYLWA-SC2M4-6DZEH-QH6X5, verif. ≤12/09/2028. Situations: Payfit 20.01.2025→actual 600 d; Taxfix 16.04.2023–29.11.2024 594 d; prestación desempleo 47 d; Diseño Global Meridiano 88 d + vacaciones 8 d; vacaciones Taxfix 4 d. ⚠️ TGSS domicile on file: Av. Maestro José Garberí 11, 03540 ALICANTE (pre-move).
 - Payfix Recursos Humanos S.L. alta 20/01/2025 → current employer (from id 79) — **same as "Payfit" in tax notes**
 - TIE Oleksii (id 17); Padrón Oasis 63 15/01/2025 (id 18); Modelo 100 filings (ids 69/80/87); Taxfix payslip 2023.05 (id 118)
 - **Passport Oleksii (id 166)** — «Honchar Foreign Passport», PP GO229656, DOB 02/10/1979 (MRZ 791002), issued 21/05/2026 authority 2123, expiry 21/05/2036 (MRZ 360521 consistent). Added by user 2026-09-11.

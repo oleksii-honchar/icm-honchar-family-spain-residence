@@ -50,6 +50,7 @@
 | Padrón 15/01/2025 | 18 |
 | Vida laboral 12/12/2024 | 25 |
 | Vida laboral 07/05/2025 | 79 |
+| **Vida laboral 11/09/2026 (1.341 d, CEA GLZ3Z-RRYM5)** | **168** (added 2026-09-11) |
 | Modelo 100 filings (Artem as Hijo) | 69, 80, 87 |
 | Taxfix payslip 2023.05 | 118 |
 | Contrato Securitas (Oleksii) | 38 |
@@ -63,7 +64,7 @@
 - [x] Passport copy, current — **CONFIRMED in paperless id 166** (PP GO229656, exp 21/05/2036; verified live 2026-09-11)
 - [x] Last 3 payslips — **CONFIRMED in paperless** (ids 163/165/160 = Aug/Jul/Jun 2026; full Payfit series 2025–2026)
 - [x] Payfit employment contract — **CONFIRMED in paperless id 167** (PF RH - CDI 2024, 20/01/2025, indefinido, Senior Software; verified live 2026-09-11)
-- [ ] Current vida laboral (2026) — not in paperless; needed for 03/04.
+- [x] Current vida laboral (2026) — **CONFIRMED in paperless id 168** (vida_laboral_2026-09-11, 1.341 días, CEA GLZ3Z-RRYM5-QYLWA-SC2M4-6DZEH-QH6X5 verif. ≤12/09/2028; Payfit 600 d current) — verified live 2026-09-11
 - [ ] Current TIE copy (scan) — confirm the 11/04/2025 card is in paperless (id 17 claimed, not re-verified).
-- [ ] Certificado de antecedentes penales (España) — not in paperless.
+- [ ] Certificado de antecedentes penales (España) — not in paperless. **ONLINE ROUTE BLOCKED 2026-09-11**: Justicia sede (Cl@ve OK) refuses: «El último TIE no está vigente… acudir a una comisaría de la Dirección General de la Policía» — TIE card validity 04/03/2026 not reflected in police registry (auto-ext. INT/96/2026 → 04/03/2027 not recognized). Options: physical (comisaría / Registro Central de Penados), renew TIE, or retry later.
 - [ ] Empadronamiento certificate (certificado de empadronamiento) for Illescas — volante 2026-E-RE-11411 done 11/09; certificado RE-11414 pending resolution.

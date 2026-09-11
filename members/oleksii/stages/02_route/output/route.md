@@ -90,11 +90,11 @@
 
 **Requirements checklist for Oleksii (art. 80/191):**
 - [x] Valid Ukrainian passport — **in paperless id 166** (PP GO229656, exp 21/05/2036; verified live 2026-09-11)
-- [ ] Certificado de antecedentes penales España (not in paperless — obtain via [Sede del Gobierno](https://sede.gob.es/sede-electronica-servicio/certificado-penales))
+- [ ] ~~Certificado de antecedentes penales España~~ — **NOT required to attach for the art. 191/EX-03 filing** (verified 2026-09-11): RD 1155/2024 (BOE-A-2024-24099) — "la oficina de extranjería recabará de oficio el informe del Registro Central de Penados para comprobar la inexistencia de antecedentes penales"; lawyer guides (2026) confirm the certificate is not re-submitted when filing a modification; community practice files without it. RCP Madrid trip (C/ de la Mancha 2) downgraded to CONTINGENCY — only if the SRU issues a requerimiento, or for the future larga duración dossier. See _shared/procedures-antecedentes-rcp.md.
 - [ ] ~~Certificado de antecedentes penales Ucrania~~ — NOT required for art. 191 modification (art. 74.h) only requires Spanish certificate). Will be needed later for EX-11 larga duración (art. 177.3.f).
 - [x] Employment contract with Payfix — **in paperless id 167** (PF RH - CDI 2024, 20/01/2025, indefinido, Senior Software; verified live 2026-09-11)
 - [x] Last 3 payslips — **in paperless ids 163/165/160** (Aug/Jul/Jun 2026; full Payfit series 2025–2026 verified live 2026-09-11)
-- [ ] Current vida laboral (as of 2026) — download from [SEPE](https://sede.sepe.es) (last stored 07/05/2025, id 79 — stale)
+- [x] Current vida laboral (2026) — **in paperless id 168** (vida_laboral_2026-09-11, 1.341 días, CEA GLZ3Z-RRYM5 verif. ≤12/09/2028; Payfit 600 d current; obtained via Seguridad Social portal — NOT SEPE — verified live 2026-09-11)
 - [ ] Proof of means: savings or salary evidence
 - [ ] NIE form: EX-25 (modification to residencia y trabajo) — **verify EX-03 vs EX-99 in 04_filing**
 - [ ] Tasa: 790-052 ep. 2.1.5 (~€10.94) + 790-012 for TIE after grant (~€16.08)
@@ -102,7 +102,7 @@
 ### 2.5 Submission procedure — step by step (art. 191)
 
 **Phase 1: Document preparation (2–4 weeks)**
-1. Download current vida laboral from SEPE (requires Cl@ve or Digital Certificate).
+1. ✅ Download current vida laboral — DONE (Seguridad Social portal, 11/09/2026, paperless id 168; note: service is at Seguridad Social, NOT SEPE).
 2. Obtain Spanish criminal record certificate (online via Sede del Gobierno, ~€5).
 3. ~~Obtain Ukrainian criminal record certificate~~ — NOT required for art. 191 modification (art. 74.h) only requires Spanish certificate). Will be needed later for EX-11 larga duración (art. 177.3.f).
 4. Employer (Payfix) issues current employment contract or formal letter.
