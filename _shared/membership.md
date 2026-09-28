@@ -21,11 +21,13 @@ Notes:
 |---|---|---|---|
 | TIE (protección temporal) | id 17 (Z0166205N, valid until 04/03/2026, auto-ext.) | — | — (no TIE PDF in paperless; present per padrón) |
 | Padrón (15/01/2025, Oasis 63) | id 18 | id 18 | id 18 |
+| **Certificado de empadronamiento** | **id 177** (certificado oficial colectivo, 17/09/2026, firmado electrónicamente; sustituye id 172 volante informativo; añade id 177) |
 | Vida laboral (SS days) | id 25 (2024-12-12, 694 d), id 79 (2025-05-07, 849 d), **id 168 (2026-09-11, 1.341 d** = 3y 8m 3d; CEA GLZ3Z-RRYM5, verif. ≤12/09/2028) | — | — |
 | Modelo 100 filings (Hijo listed Artem) | ids 69/80/87 | ids 69/80/87 | ids 69/80/87 |
 | Passport (foreign) | **id 166** (PP GO229656, exp 21/05/2036; added 2026-09-11) | — | — (scans exist in session only; migration todo) |
-| Work history (payslips) | Taxfix 2023.05 payslip id 118; **Payfit series ids 99…88 (2025) + 164/159/161/162/160/165/163 (2026); last 3 = 163/165/160** | — | — |
+| Work history (payslips) | Taxfix 2023.05 payslip id 118; **Payfit series ids 99…88 (2025) + 164/159/161/179/162/160/165/163 (2026 — Jan 164, Feb 159, Mar 161, Apr 179, May 162, Jun 160, Jul 165, Aug 163, no gaps); last 3 = 163/165/160** | — | — |
 | **Payfit employment contract** | **id 167** (PF RH - CDI 2024, 20/01/2025, indefinido, Senior Software; added 2026-09-11) | — | — |
+| **Santander salary statement (proof of means)** | **id 178** (transactions_salario 2026-09-27, 1 p.; ES69 0049 0456 9220 1073 7305, saldo 5.864,81 € a 27/09/2026; 4 Payfit abono nómina deposits May–Aug 2026: 4.344–4.657 €/month) | — | — |
 | Other | Contrato Securitas id 38 (name OCR "Olek/Oleksii <span class=...>Honchar</span>"; linked to ZAD3977 524) | — | — |
 
 **Sources:** Artem residence session (2026-08-22) data-artem-family.json + paperless search (2026-09-05, refreshed 2026-09-11 — passport id 166, Payfit payslip series, Payfit contract id 167, and current vida laboral id 168 verified live). Verify before relying: TIE card backs, padrón certs.

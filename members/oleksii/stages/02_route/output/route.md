@@ -63,7 +63,7 @@
 ### 2.3 Open questions for the human / ONG
 1. AGREE with "B now + A at 2027" — or prefer just waiting (A)? (decision)
 2. Confirm SEM 2/2026 counting of TP for larga duración with CEAR/ACCEM/abogado — **it is an instruction, not settled law**.
-3. Which form for the art. 191 modification — EX-03 (modification) and whether it must be Mercurio-based; confirm at the official portal during 04_filing.
+3. ~~Which form for the art. 191 modification~~ — **RESOLVED 2026-09-27**: official portal verdict = **EX-26** "solicitud de modificación de autorización de residencia o estancia" (EX-99 does NOT exist in the official catalog; EX-03 = initial form only). REMAINING: (a) whether the DA 19ª pasarela filing uses EX-26 or **EX-28** ("aplicación de la DT 2ª RD 1155/2024" — exists in the catalog) or both — lawyer/ONG confirmation; (b) whether the submission is Mercurio-based (route.md §2.5 assumed extranjeria.interior.gob.es; official Sede channel = sede.inclusion.gob.es/extranjeria "Autorizaciones de trabajo y residencia (Tasa 038)"). Confirm during 04_filing.
 4. Exact 5-year date — need the "fecha de inicio de vigencia" from the back of the TIE / the NIE tarjeta (not in paperless).
 
 ### 2.4 Lawyer's assessment — 4-year art. 191 case (B route)
@@ -113,7 +113,7 @@
 1. Register/login at [Mercurio](https://extranjeria.interior.gob.es/) with Digital Certificate or AutoFirma.
 2. Select "Modificación de autorización de residencia temporal" (art. 191).
 3. Upload scanned documents to each field.
-4. Complete the EX-25 modification form.
+4. Complete the EX-26 modification form (solicitud de modificación de autorización de residencia o estancia).
 5. Generate the tasación (790-052), pay online via bank, upload receipt.
 6. Submit the application — obtain a resguardo (receipt number).
 

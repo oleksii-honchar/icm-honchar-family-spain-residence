@@ -20,7 +20,7 @@ Reference for every member's `02_route`. Deep sources in `sources.md`. This is o
 | Who | Best route now | Form | Tasa | Notes |
 |---|---|---|---|---|
 | Minor (Artem, 10yo, not born in Spain) | Ordinary residence as minor — **art. 160 RD 1155/2024** (SEM 2/2026 waives 2y prior residence, parents' means, housing proof for TP minors); grants **5-year temporary residence**, right to work at legal age. Can file **separately** from parents | **EX-25** signed by parent/legal rep | 790-052 ep. 2.1.5 (≈€10.94, verify; possible minor exemption) | Cannot wait for parents; file now |
-| Adult with work (Oleksii, AUTORIZA A TRABAJAR under TP) | Option A: **art. 191 work-route ordinary residence** (2y TP → 1y work → arraigo-style; verify exact article/requirements under RD 1155/2024 + SEM 2/2026). Option B: **wait for larga duración nacional** at 5y mark (Nov 2027) and file EX-11 directly | EX-25 (A) / EX-11 (B) | 790-052 ep. 2.1.5 (A) / ep. 2.6 ≈ €21.80 (B) | TP time counts for larga duración nacional per SEM 2/2026 — Option B needs no renuncia |
+| Adult with work (Oleksii, AUTORIZA A TRABAJAR under TP) | Option A: **art. 191 work-route ordinary residence** (TP holder, ≥1y residence, AUTORIZA A TRABAJAR → 4-year residencia y trabajo, art. 191.3). Option B: **wait for larga duración nacional** at 5y mark (Nov 2027) and file EX-11 directly | **EX-26** (A, verified 2026-09-27) / EX-11 (B) | 790-052 **ep. 2.5.2** €10,94 (A) / ep. 2.6 ≈ €21.80 (B) | TP time counts for larga duración nacional per SEM 2/2026 — Option B needs no renuncia. ep. 2.1.5 = MENOR (art. 160 EX-25), NO es la tasa del adulto |
 | Adult no-work / spouse (Yuliia) | Likely **arraigo familiar / cónyuge route** or wait for larga duración; verify Yuliia's work status | EX-XX (verify) | verify | Needs its own route analysis; do not copy Oleksii's |
 
 ## Larga duración nacional — requirements (Hoja 49 / arts 182–185)
@@ -37,9 +37,11 @@ Reference for every member's `02_route`. Deep sources in `sources.md`. This is o
 
 | Concept | Tasa |
 |---|---|
-| EX-25 minor (ep. 2.1.5) | ≈ €10.94 |
+| EX-25 minor (art. 160, ep. 2.1.5) | ≈ €10.94 |
+| **EX-26 art. 191 modificación (ep. 2.5.2, solicitante)** | **€10,94** |
+| **EX-26 art. 191 — tasa del empleador (790-062, cuenta ajena)** | **€81,54** (confirmar en tasación) |
 | EX-11 larga duración (ep. 2.6) | ≈ €21.80 |
-| EX-17 TIE after grant (790-012) | ≈ €16.08 |
+| EX-17 TIE after grant (790-012) | ≈ €16.40 (Policía Nacional sede 2026; rules anterior decía €16.08) |
 
 ## Filling mechanics (from Artem research)
 
