@@ -111,12 +111,23 @@ Fuente oficial: https://www.sede.fnmt.gob.es/certificados/persona-fisica
   reinstalar.
 - **SmartScreen/firewall**: permitir la ejecución la primera vez (ver paso 3).
 
+## macOS (Oleksii's working machine — added 2026-10-04)
+
+AutoFirma v1.9 is installed on macOS (installed by user; official source: firmaelectronica.gob.es/descargas → macOS .pkg — the installer bundles the required JRE, no separate Java needed).
+
+- **Cert store on macOS = Keychain (llaveros), not Windows store.** AutoFirma and the browsers (Safari/Chrome) read the **login keychain**.
+- **Import a .pfx/.p12**: double-click the file → Keychain Access imports it into "login" (enter the .pfx password). Verify: Keychain Access → category Certificates → the FNMT cert shows with its private key (expand triangle).
+- **Check validity**: FNMT certificates expire after **4 years** — open the cert, check "Válido" dates. If expired: re-download at sede.fnmt.gob.es (identity already accredited once) or fall back to Cl@ve.
+- **First run**: macOS security prompts (allow AutoFirma); if the app is blocked, right-click → Open once.
+- **Test-sign** a dummy PDF before filing day.
+- Mercurio/Sede client-cert login works from Safari and Chrome on macOS once the cert is in the login keychain.
+
 ## Registro (rellenar tras la instalación)
 
-- Fecha instalación: ___
-- Versión: 1.9 / 1.8.3 / ___
-- Máquina: ___
-- Prueba de firma sobre un PDF de prueba: hecha / pendiente
+- Fecha instalación: 2026-10-04 (confirmada por el usuario; macOS)
+- Versión: 1.9
+- Máquina: macOS (Mac de Oleksii)
+- Prueba de firma sobre un PDF de prueba: **pendiente** (hacer antes del día de presentación)
 
 ---
 *Redactado 2026-09-11. Fuentes: firmaelectronica.gob.es/descargas (página oficial vigente) +

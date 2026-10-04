@@ -1,3 +1,13 @@
+---
+change_history:
+  - at: "2026-09-10T00:00:00Z"
+    by: "user_oleksii"
+    action: "stage-completed"
+    artifact: "members/oleksii/stages/02_route/output/route.md"
+    stage: "oleksii/02_route"
+    summary: "Route complete — human decision Route B (art. 191 now, 4-year permit); advanced to 03_documents. Event backfilled 2026-10-04 during per-user state migration (original completion recorded in legacy progress.md)."
+---
+
 # Oleksii HONCHAR — Route analysis & legal justification (02_route)
 
 > Date: 2026-09-05 · Status: DRAFT — pending human decision + ONG/lawyer confirmation of SEM 2/2026.

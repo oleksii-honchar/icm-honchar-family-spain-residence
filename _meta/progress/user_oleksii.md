@@ -1,0 +1,138 @@
+---
+userKey: "user_oleksii"
+identitySource: "bensyne-user-bank"
+current: "oleksii/05_longterm"
+workStatus: "in-progress"
+updatedAt: "2026-10-04T15:36:00Z"
+completed:
+  - stage: "oleksii/05_longterm:timeline"
+    at: "2026-10-04"
+    artifacts: ["members/oleksii/stages/05_longterm/output/timeline.md"]
+    result: "pass (artifact written) — timeline.md created: expediente tracker (registered → admisión pending → 3-month resolution clock with SILENCIO NEGATIVO, appealable), post-grant chain (alta ≤1m → TIE EX-17+790-012 ≤1m → renuncia TP), 5-year larga duración mark ~Nov–Dec 2027 (exact date pending TIE-back/resguardo check; SEM 2/2026 counting pending lawyer re-verify). Calendar events created (tuiteraz@gmail.com): 2026-10-14 status check; 2027-08-15 lawyer re-verify; 2027-11-01 larga duración mark. Stage stays open until resolution/TIE/dates resolve in real time — tracked via reminders."
+  - stage: "oleksii/04_filing"
+    at: "2026-10-04"
+    artifacts: ["members/oleksii/stages/04_filing/output/filing-plan.md", "members/oleksii/stages/04_filing/output/resguardo_registro_REGAGE26e00086235758.pdf", "members/oleksii/stages/04_filing/output/copia_solicitud_EX26_I45202604965338.pdf"]
+    result: "pass (GATE APPROVED by human 2026-10-04 17:30) — EX-26 art.191.3 submitted, 9 docs attached, signed via AutoFirma/FNMT, REGISTERED: Nº REGAGE26e00086235758 (04/10/2026 17:14:47, Oficina Toledo O00006307, CSV GEISER-a756-401c-e40a-43c7-983a-cab7-2e2c-d494). Tasas deferred to admisión a trámite (10 días hábiles from notification) — calendar reminder 2026-10-14 09:00 Europe/Madrid created for tuiteraz@gmail.com. Follow-ups (tasas payment, resguardos) tracked in todo; do not block stage close."
+  - stage: "oleksii/04_filing:filing-plan"
+    at: "2026-10-04"
+    artifacts: ["members/oleksii/stages/04_filing/output/filing-plan.md"]
+    result: "pass (plan written) — advanced from 03_documents on user go-ahead ('submit residency request'). Channel RESOLVED at Hoja 55: Mercurio (sede.administracionespublicas.gob.es/mercurio), Oficina Extranjería Toledo (45). Silence correction: NEGATIVO after 3m (route.md §2.5 assumption corrected). Step order A–E + payment records prepared. HUMAN GATE OPEN: sign method decision + personal execution of submission/payment."
+  - stage: "oleksii/04_filing:tooling-blocker-research"
+    at: "2026-10-04"
+    artifacts: ["_meta/progress/user_oleksii.md"]
+    result: "pass (diagnosis) — CloakBrowser MCP browser_file_upload flaky failure (ENAMETOOLONG stat of base64 content) traced to pinned cloakbrowser-mcp@1.13.0 (upstream @playwright/mcp 0.0.80). Upstream 0.0.81/0.0.82 contains upload-handling fix; cloakbrowser-mcp 1.14.1 bundles 0.0.82. FIX APPLIED: opencode.jsonc pin bumped 1.13.0 → 1.14.1 (user restarts server). Next session: redo EX-26 form in fresh CloakBrowser (old session + 4 attachments abandoned — no pre-registro resume handle); if uploads still fail, fall back to user's own browser with data sheet."
+  - stage: "oleksii/04_filing:ex26-refill"
+    at: "2026-10-04"
+    artifacts: ["members/oleksii/stages/04_filing/output/filing-plan.md"]
+    result: "pass (form re-validated on 1.14.1) — after MCP upgrade + session loss, EX-26 re-entered end-to-end via JS-driven flow (entradaMercurio → seleccionModelo-45 → nuevaSolicitud-EX26): supuesto EX-26-1-02 (191.3 ajena y propia), personal data + padrón address (Calle Oasis 63 1ºA, 45200 Illescas), employer Payfit B67154237 C/ Pamplona 104 08018 Barcelona CNAE 6209 + ocupación 182, rep empresa Miazzo Y3769091A apoderado solidario, notificación = self + SEÑORIO DE ILLESCAS + electronic consent + tuiteraz@gmail.com/671402580. VALIDATED → NEW Id formulario inicial I45202604965338 (old I45202604965185 abandoned). Accepted 'sujeto legitimado en España' declaration; entered PRESENTACIÓN ELECTRÓNICA path. NOTE: applicant-rep fields on personales tab intentionally left empty (self-presenter); rep belongs to employer block."
+  - stage: "oleksii/04_filing:registro-entrada"
+    at: "2026-10-04"
+    artifacts: ["members/oleksii/stages/04_filing/output/resguardo_registro_REGAGE26e00086235758.pdf", "members/oleksii/stages/04_filing/output/copia_solicitud_EX26_I45202604965338.pdf"]
+    result: "pass (SOLICITUD REGISTRADA) — EX-26 art.191.3 signed via AutoFirma (afirma:// handoff, user selected FNMT cert) and registered. NÚMERO DE REGISTRO: REGAGE26e00086235758, fecha 04/10/2026 17:14:47, Oficina 'Asistencia en Materia de Registros: Atención al Ciudadano y Registro en Toledo - O00006307', CSV GEISER-a756-401c-e40a-43c7-983a-cab7-2e2c-d494 (validate: sede.administracionespublicas.gob.es/valida). Id formulario I45202604965338. Resguardo + copia downloaded (base64 via page fetch → local decode; resguardo is scanned image, copia is text PDF) and archived. NOTE: attached vida laboral + padrón are the 2025-01 versions (user informed; fresher available via paperless if subsanación requested). REMAINING 04_filing: PAY tasas (790-052 ep.2.5.2 €10,94 + 790-062 €81,54, 10 días hábiles from admisión a trámite) + record numbers in _shared/procedures-tasas.md."
+  - stage: "oleksii/04_filing:doc-upload-9of9"
+    at: "2026-10-04"
+    artifacts: ["members/oleksii/stages/04_filing/output/filing-plan.md"]
+    result: "pass (9/9 attached on form I45202604965338) — pasaporte (type 1), contrato (type 157), recursos (type 39), nomina 08/07/06 + vida laboral + TIE + padron (type 999 + Spanish labels). UPLOAD BUG ROOT-CAUSED: harness inlines file CONTENT (base64) into paths arg — ENAMETOOLONG/ENOENT of base64 string; FIX: pass RELATIVE paths (./ex26_upload/<file>) from server cwd /Users/tuiteraz/.agent-sessions — absolute paths get content-inlined. Workflow per doc: JS-click #addDou → browser_file_upload(relative) → set #docAdjuntarAdjuntos + #desDocumentoAdjuntos → JS-click #btnOpeAdjuntar → verify row. NEXT: Continuar → AutoFirma sign (user) → registro."
+  - stage: "oleksii/03_documents:tasas-verification"
+    at: "2026-09-27"
+    artifacts: ["members/oleksii/stages/03_documents/output/checklist.md", "_shared/procedures-tasas.md", "_shared/rules.md"]
+    result: "pass (verification) — TASAS GAP CLOSED. Correct worker epígrafe art. 191 = 790-052 ep. 2.5.2 €10,94 (former ep. 2.1.5 was the minor EX-25 case). Employer fee 790-062 €81,54 (confirm ep. at Mercurio tasación). 790-012 TIE €16,40 paid post-grant at comisaría. Timing: tasas devengadas at admisión a trámite, 10 días hábiles → payment at 04_filing."
+  - stage: "oleksii/03_documents:form-ex26-vs-ex28-lawyer"
+    at: "2026-09-27"
+    artifacts: ["members/oleksii/stages/03_documents/output/lawyer-opinion-191-form.md", "members/oleksii/stages/03_documents/output/checklist.md"]
+    result: "pass (legal research) — art. 191/DA 19ª pasarela filing uses EX-26 (modificación). EX-28 = DT 2ª transitional (pending apps 19/11/2024), not the pasarela; EX-03 initial-only; EX-99 nonexistent."
+  - stage: "oleksii/03_documents:human-check-177-178"
+    at: "2026-09-27"
+    artifacts: ["members/oleksii/stages/03_documents/output/checklist.md"]
+    result: "pass (human confirmation) — id 177 colectivo certificado correct; id 178 Santander statement acceptable as proof of means; all documents current."
+  - stage: "oleksii/03_documents:verification-series"
+    at: "2026-09-11 → 2026-09-27"
+    artifacts: ["members/oleksii/stages/03_documents/output/checklist.md", "_shared/membership.md", "_shared/sources.md", "_shared/procedures-padron.md", "_shared/procedures-antecedentes-rcp.md", "_shared/procedures-autofirma.md"]
+    result: "pass — all dossier GAPs closed via live paperless verification: passport id 166, TIE id 17, contract id 167, payslip series 2025–2026 complete (ids 99…88, 159–165, 179), vida laboral id 168 (1.341 días), padrón certificado id 177 (RE-11414 resolved), proof of means id 178. Antecedentes: not required for art. 191 (de oficio, art. 74.h); RCP Madrid downgraded to contingency. AutoFirma procedure documented."
+  - stage: "oleksii/02_route"
+    at: "2026-09-05 → 2026-09-10"
+    artifacts: ["members/oleksii/stages/02_route/output/route.md"]
+    result: "pass — legal framework + routes A/B; art. 191.3 = 4-year permit verified; legal strategy §2.4/§2.5; HUMAN DECISION: Route B (file art. 191 now)."
+  - stage: "oleksii/01_profile"
+    at: "2026-09-05"
+    artifacts: ["members/oleksii/stages/01_profile/output/profile.md"]
+    result: "pass — identity, TP/TIE chain, work history, padrón, doc table, GAPs."
+  - stage: "artem/01_profile"
+    at: "2026-09-05"
+    artifacts: ["members/artem/stages/01_profile/output/profile.md"]
+    result: "pass — imported from archived session 260822-1627-residence-permit-artem; 8 GAPs incl. critical second-parent consent."
+  - stage: "_bootstrap"
+    at: "2026-09-05"
+    artifacts: ["README.md", "AGENTS.md", "CONTEXT.md", "_shared/membership.md", "_shared/rules.md", "_shared/statuses.md", "_shared/sources.md", "_templates/member/**", "members/{oleksii,artem,yuliia}/**"]
+    result: "pass — umbrella pipeline scaffolded; 3 member records instantiated from template."
+todo:
+  - "oleksii/05_longterm: LIVE TRACKER = members/oleksii/stages/05_longterm/output/timeline.md §1. Next event: admisión a trámite → tasación → PAY tasas 790-052 ep.2.5.2 €10,94 + 790-062 €81,54 within 10 días hábiles (calendar reminder 2026-10-14 09:00, eid bj3uc320jpu8lhcst80p7119ko). Then resolution ≤3m (SILENCIO NEGATIVO — appealable). Post-grant chain: alta ≤1m → TIE EX-17+790-012 ≤1m → renuncia TP. Larga duración mark ~Nov–Dec 2027 (calendar: 2027-08-15 lawyer re-verify eid 9ptd1lvq1noippeui0536i9q24; 2027-11-01 mark eid of6kpev30jrdi2entc9opv7jsk)."
+  - "oleksii/04_filing follow-ups (do not block stage): if subsanación requested, attach fresher vida laboral (paperless 168) / padrón (177) via expediente; record paid resguardos in _shared/procedures-tasas.md §Registro"
+  - "oleksii: confirm with ONG/lawyer that SEM 2/2026 TP-counting holds for larga duración (calendar 2027-08-15)"
+  - "oleksii: verify exact 5-year mark from TIE card back / NIE resguardo (before relying on Nov-2027 date)"
+  - "artem/02_route: write route analysis from @profile + @rules (art. 160 EX-25 now, EX-11 at ~16/12/2027); confirm exact NIE/TP start"
+  - "artem: obtain second-parent consent (biological father lives in Ukraine) for his EX-25/art. 160 filing"
+  - "artem: migrate the remaining 5 session artem scans (TIE 2022/2025, padrón 2022, birth cert, passport) into paperless"
+  - "yuliia/01_profile: stub awaiting bootstrap (not started)"
+decisions:
+  - what: "Sign method for EX-26/Mercurio = FNMT certificate + AutoFirma v1.9 on macOS (installed); Cl@ve as fallback on filing day"
+    why: "User has both; certificate chosen for session stability on the long multi-upload Mercurio registry + offline EX-26 signing + reuse at later sedes (AEAT, ICPP, comisaría). AutoFirma v1.9 confirmed installed on macOS 2026-10-04; macOS keychain procedure added to _shared/procedures-autofirma.md. Test-sign + cert-validity check remain before filing day."
+    at: "2026-10-04"
+  - what: "Workspace shape = umbrella pipeline; each family member = record with identical 5-stage pipeline"
+    why: "3 members share one legal framework but independent timelines; invariants 5/10"
+    at: "2026-09-05"
+  - what: "Route framework: TP → ordinary residence (art. 160 EX-25 minor / work-route) now, larga duración nacional at 5y mark (TP time counts per SEM 2/2026)"
+    why: "Precedent research; SEM 2/2026 counted toward larga duración nacional"
+    at: "2026-09-05"
+  - what: "Oleksii Route Decision: B — file art. 191 modification now for 4-year residencia y trabajo permit"
+    why: "Human decision after lawyer-style assessment; route updated with legal strategy + submission procedure"
+    at: "2026-09-10"
+  - what: "Ukrainian criminal record certificate NOT required for art. 191 modification"
+    why: "art. 74.h) RD 1155/2024 requires only inexistencia de antecedentes penales en España; foreign certs needed later for EX-11 (art. 177.3.f)"
+    at: "2026-09-10"
+  - what: "Form for the art. 191 modification = EX-26 (not EX-03, not EX-99, NOT EX-28)"
+    why: "Verified 2026-09-27 at official portal + lawyer research: EX-26 is the modification form; EX-28 = DT 2ª transitional only"
+    at: "2026-09-27"
+  - what: "Tasa worker = 790-052 ep. 2.5.2 (€10,94), not ep. 2.1.5; employer 790-062 €81,54; TIE 790-012 €16,40 post-grant"
+    why: "Verified 2026-09-27 at official Sede modelos 790-052/790-062 + Policía Nacional sede"
+    at: "2026-09-27"
+  - what: "User pays ALL fees himself (incl. employer 790-062 on Payfit's behalf); payment route A = at filing via Mercurio tasación"
+    why: "Human decision at the 03_documents tasas gate 2026-09-27; Payfit CIF contingency B67154237 prepared in _shared/procedures-tasas.md"
+    at: "2026-09-27"
+  - what: "Paperless search is the source of truth for doc GAPs — re-verify via MCP before declaring missing"
+    why: "Stale workspace index missed user-added docs; lesson recorded"
+    at: "2026-09-11"
+  - what: "Always persist progress into workspace project files as I go"
+    why: "User instruction 2026-09-11: state lives in files, not conversation"
+    at: "2026-09-11"
+  - what: "Google Calendar used for reminders (padrón recheck)"
+    why: "Authorized reminder channel; event created via google_workspace MCP"
+    at: "2026-09-11"
+  - what: "Submission channel for art. 191/EX-26 = Mercurio (sede.administracionespublicas.gob.es/mercurio), Oficina de Extranjería de Toledo (provincia 45)"
+    why: "Verified 2026-10-04 at Hoja 55 (official): 'Telemáticamente, a través de la sede electrónica del MPTMD (Mercurio)'. Presencial alternative = same Oficina."
+    at: "2026-10-04"
+  - what: "Resolution silence for this procedure = NEGATIVO (desestimación presunta after 3 months), not positivo"
+    why: "Hoja 55 explicit; corrects route.md §2.5 assumption. If triggered: appealable — consult ONG/lawyer promptly."
+    at: "2026-10-04"
+  - what: "State migrated from legacy shared _meta/progress.md to per-user _meta/progress/user_oleksii.md; legacy file removed"
+    why: "User instruction 2026-10-04 ('copy history and remove legacy progress.md') under the updated icm-specialist per-user convention. change_history events backfilled on stage artifacts for same-user recovery proof."
+    at: "2026-10-04"
+notes: "Per-user record created 2026-10-04 by human-approved carry-over from the legacy shared progress.md (removed same day). Oleksii = pilot member; Artem/Yuliia = templates instantiated, profiles pending. Paperless ids 17, 99–168, 177–179 verified live across 2026-09. TGSS domicile on file still Alicante (Garberí 11) — flagged in roster/profile. 04_filing IN PROGRESS, workStatus waiting-human: sign-method decision + personal submission/payment by Oleksii pending. After grant: alta ≤1m, TIE ≤1m after alta (EX-17 + 790-012 at comisaría, ICPP cita), renuncia TP, keep all resguardos for larga duración (Nov 2027 mark)."
+---
+
+# Track-Record State — user_oleksii.md
+
+Per-user state record (icm-specialist per-user convention). `userKey` matches the filename; identity from the Bensyne user bank. History carried over 2026-10-04 by explicit human instruction from the legacy shared `_meta/progress.md` (now removed); `change_history` events backfilled on stage output artifacts as same-user recovery proof.
+
+## 2026-10-04 — LIVE: 04_filing started, filing plan written
+- Filing plan: members/oleksii/stages/04_filing/output/filing-plan.md (channel, docs, step order A–E, payment records, human-check gate).
+- Channel RESOLVED (Hoja 55): Mercurio, Oficina Extranjería Toledo (45). Silence correction: NEGATIVO after 3m.
+- HUMAN GATE: sign method decision (Cl@ve vs FNMT+AutoFirma), then Oleksii executes submission + payment personally; record resguardos here + _shared/procedures-tasas.md.
+
+## 2026-10-04 — LIVE: EX-26 form filled + doc upload 4/9 (04_filing)
+- Form filled & validated → Id formulario inicial I45202604965185. Rep/employer corrections applied (Miazzo Y3769091A, Payfit 08018, CNAE 6209).
+- 4 docs attached server-side with HASH (pasaporte, recursos, contrato, nómina agosto). 5 remaining staged (upload/ + /tmp/ex26_upload/).
+- Tooling blocker: CloakBrowser MCP upload bug (ENAMETOOLONG on base64) + native picker interception in driven browser → manual upload impossible there. Human check surfaced; manual-browser restart recommended (data sheet given). Lesson: in automation-driven browsers, file pickers are intercepted — never let the human click Examinar there; and never cancel stale pickers after a successful upload (resets plupload queue).
+
+## 2026-09-16 — LIVE: solicitud certificado de convivencia (03_documents)
+- SIA 3218824 wizard + RE-11414; resolved 2026-09-27 as paperless id 177 (certificado colectivo). Calendar reminder created.

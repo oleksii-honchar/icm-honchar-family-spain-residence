@@ -55,7 +55,9 @@ Según la **Hoja 55 del Ministerio** (modificación de autorización, art. 191):
 | **NIF/CIF** | **B67154237** |
 | C.C.C. (cuenta de cotización) | 08207178383 |
 | Centro de trabajo | PayFit España |
-| Domicilio | Calle Pamplona 104, Barcelona |
+| Domicilio | Calle Pamplona 104, **08018** Barcelona (contrato id 167 + BORME cambio domicilio 2023) |
+| Actividad (CNAE/TGSS) | 62 «Otros servicios relacionados con las tecnologías de la información y la informática» (según cuenta de cotización del contrato) |
+| **Representante legal** (para EX-26) | **Giulia Miazzo, NIE Y3769091A, en concepto Apoderado(a) Solidario/a** — firmante del contrato id 167; apoderada vigente según BORME (nombrada 10/06/2025). Administrador único registral = PAYFIT SAS (via REPR.143 RRM Jonathan William Ducroizet) |
 | Epígrafe 790-062 | 2.2 «Autorización de trabajo para autorizaciones renovadas de residencia temporal de trabajo por cuenta ajena» = €81,54 |
 | Abona (decisión 2026-09-27) | El propio Oleksii, en nombre del empleador |
 

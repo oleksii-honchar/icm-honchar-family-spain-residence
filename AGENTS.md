@@ -12,7 +12,7 @@ Built on ICM: folders carry sequencing, hierarchy carries context, files carry s
 | `members/<name>/stages/` | that member's pipeline: 01_profile → 02_route → 03_documents → 04_filing → 05_longterm |
 | `_shared/` | factory: roster, legal framework, statuses — stable, every member reads these |
 | `_templates/member/` | blank member record — new person = a copy, not a blank page |
-| `_meta/progress.md` | the single state file: where we are, what's done, what's next |
+| `_meta/progress/<userKey>.md` | per-user state records (icm-specialist per-user convention): where we are, what's done, what's next |
 
 ## Route by what just happened
 

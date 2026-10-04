@@ -1,3 +1,13 @@
+---
+change_history:
+  - at: "2026-09-27T11:49:55Z"
+    by: "user_oleksii"
+    action: "stage-completed"
+    artifact: "members/oleksii/stages/03_documents/output/checklist.md"
+    stage: "oleksii/03_documents"
+    summary: "Documents complete — all 13 checklist items READY, TASAS human gate closed (Route A). Advanced to 04_filing on user go-ahead 2026-10-04. Event backfilled 2026-10-04 during per-user state migration (original completion recorded in legacy progress.md)."
+---
+
 # Oleksii HONCHAR — Document Checklist (03_documents)
 
 > Date: 2026-09-27 · Status: DRAFT — updated to reflect form verification (EX-26, official portal), paperless documents id 177 (certificado de empadronamiento colectivo) and id 178 (Santander salary statement, proof of means), and tasas verification (790-052 ep. 2.5.2 = correct art. 191 worker epígrafe, €10,94).
