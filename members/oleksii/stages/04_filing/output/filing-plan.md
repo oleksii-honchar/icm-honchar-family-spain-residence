@@ -1,17 +1,5 @@
 ---
-change_history:
-  - at: "2026-10-04T11:25:00Z"
-    by: "user_oleksii"
-    action: "created"
-    artifact: "members/oleksii/stages/04_filing/output/filing-plan.md"
-    stage: "oleksii/04_filing"
-    summary: "Filing plan written: Mercurio channel (Hoja 55), EX-26 doc set, step order A-E, payment records, human-check gate. Stage NOT completed (gate open)."
-  - at: "2026-10-04T11:55:00Z"
-    by: "user_oleksii"
-    action: "updated"
-    artifact: "members/oleksii/stages/04_filing/output/filing-plan.md"
-    stage: "oleksii/04_filing"
-    summary: "Sign method DECIDED: FNMT certificate + AutoFirma v1.9 (installed on macOS); Cl@ve as fallback. Phase A adjusted for macOS (keychain .pfx import, validity check, test-sign). workStatus: in-progress."
+{}
 ---
 
 # Oleksii HONCHAR — Filing Plan (04_filing)

@@ -1,11 +1,5 @@
 ---
-change_history:
-  - at: "2026-09-05T00:00:00Z"
-    by: "user_oleksii"
-    action: "stage-completed"
-    artifact: "members/oleksii/stages/01_profile/output/profile.md"
-    stage: "oleksii/01_profile"
-    summary: "Profile complete (identity, TP/TIE chain, work history, padrón, doc table, GAPs); human gate passed at 02_route advance. Event backfilled 2026-10-04 during per-user state migration (original completion recorded in legacy progress.md)."
+{}
 ---
 
 # Oleksii HONCHAR — Profile (01_profile)
