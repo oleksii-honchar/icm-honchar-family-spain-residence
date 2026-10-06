@@ -9,8 +9,6 @@ updatedAt: '2026-10-06T03:15:00Z'
 
 ## Goal
 
-Honchar family Spain residence — oleksii pilot pipeline (profile→route→documents→filing→longterm): art. 191 modification via EX-26 on Mercurio (registro REGAGE26e00086235758), now 05_longterm tracking (tasas payment window, silencio negativo watch, post-grant TIE chain, larga duración mark); artem/yuliia member tracks instantiated on the same 5-stage pipeline
-
 ## Todos
 
 - [ ] LIVE TRACKER = members/oleksii/stages/05_longterm/output/timeline.md §1. Next event: admisión a trámite → tasación → PAY tasas 790-052 ep.2.5.2 €10,94 + 790-062 €81,54 within 10 días hábiles (calendar reminder 2026-10-14 09:00, eid bj3uc320jpu8lhcst80p7119ko). Then resolution ≤3m (SILENCIO NEGATIVO — appealable). Post-grant chain: alta ≤1m → TIE EX-17+790-012 ≤1m → renuncia TP. Larga duración mark ~Nov–Dec 2027 (calendar: 2027-08-15 lawyer re-verify eid 9ptd1lvq1noippeui0536i9q24; 2027-11-01 mark eid of6kpev30jrdi2entc9opv7jsk).
@@ -41,6 +39,8 @@ Honchar family Spain residence — oleksii pilot pipeline (profile→route→doc
 
 ## Log
 
+2026-10-06: (migrated) Per-user record created 2026-10-04 by human-approved carry-over from the legacy shared progress.md (removed same day). Oleksii = pilot member; Artem/Yuliia = templates instantiated, profiles pending. Paperless ids 17, 99–168, 177–179 verified live across 2026-09. TGSS domicile on file still Alicante (Garberí 11) — flagged in roster/profile. 04_filing IN PROGRESS, workStatus waiting-human: sign-method decision + personal submission/payment by Oleksii pending. After grant: alta ≤1m, TIE ≤1m after alta (EX-17 + 790-012 at comisaría, ICPP cita), renuncia TP, keep all resguardos for larga duración (Nov 2027 mark).
+
 2026-10-06: (migrated) oleksii/05_longterm:admission-detected: pass (intake) — ADMITIDA A TRÁMITE: expte 450020260012292, requerimiento tasas 790-052 €10,94 + 790-062 €81,54 within 10 días hábiles (deadline ≈ 20/10/2026), remit justificantes via ADAE. Non-payment = desistimiento. [artifacts: members/oleksii/stages/05_longterm/materials/2026-10-05_OFICINA-EXTRANJERIA-TOLEDO_comunicacion-inicio_REQUERIMIENTO-TASAS_expte-450020260012292_HONCHAR.pdf, members/oleksii/stages/05_longterm/output/timeline.md]
 2026-10-04: (migrated) oleksii/05_longterm:timeline: pass (artifact written) — timeline.md created: expediente tracker (registered → admisión pending → 3-month resolution clock with SILENCIO NEGATIVO, appealable), post-grant chain (alta ≤1m → TIE EX-17+790-012 ≤1m → renuncia TP), 5-year larga duración mark ~Nov–Dec 2027 (exact date pending TIE-back/resguardo check; SEM 2/2026 counting pending lawyer re-verify). Calendar events created (tuiteraz@gmail.com): 2026-10-14 status check; 2027-08-15 lawyer re-verify; 2027-11-01 larga duración mark. Stage stays open until resolution/TIE/dates resolve in real time — tracked via reminders. [artifacts: members/oleksii/stages/05_longterm/output/timeline.md]
 2026-10-04: (migrated) oleksii/04_filing: pass (GATE APPROVED by human 2026-10-04 17:30) — EX-26 art.191.3 submitted, 9 docs attached, signed via AutoFirma/FNMT, REGISTERED: Nº REGAGE26e00086235758 (04/10/2026 17:14:47, Oficina Toledo O00006307, CSV GEISER-a756-401c-e40a-43c7-983a-cab7-2e2c-d494). Tasas deferred to admisión a trámite (10 días hábiles from notification) — calendar reminder 2026-10-14 09:00 Europe/Madrid created for tuiteraz@gmail.com. Follow-ups (tasas payment, resguardos) tracked in todo; do not block stage close. [artifacts: members/oleksii/stages/04_filing/output/filing-plan.md, members/oleksii/stages/04_filing/output/resguardo_registro_REGAGE26e00086235758.pdf, members/oleksii/stages/04_filing/output/copia_solicitud_EX26_I45202604965338.pdf]
@@ -57,7 +57,7 @@ Honchar family Spain residence — oleksii pilot pipeline (profile→route→doc
 2026-09-05: (migrated) oleksii/01_profile: pass — identity, TP/TIE chain, work history, padrón, doc table, GAPs. [artifacts: members/oleksii/stages/01_profile/output/profile.md]
 2026-09-05: (migrated) artem/01_profile: pass — imported from archived session 260822-1627-residence-permit-artem; 8 GAPs incl. critical second-parent consent. [artifacts: members/artem/stages/01_profile/output/profile.md]
 2026-09-05: (migrated) _bootstrap: pass — umbrella pipeline scaffolded; 3 member records instantiated from template. [artifacts: README.md, AGENTS.md, CONTEXT.md, _shared/membership.md, _shared/rules.md, _shared/statuses.md, _shared/sources.md, _templates/member/**, members/{oleksii,artem,yuliia}/**]
-2026-10-06: (migrated) Per-user record created 2026-10-04 by human-approved carry-over from the legacy shared progress.md (removed same day). Oleksii = pilot member; Artem/Yuliia = templates instantiated, profiles pending. Paperless ids 17, 99–168, 177–179 verified live across 2026-09. TGSS domicile on file still Alicante (Garberí 11) — flagged in roster/profile. 04_filing IN PROGRESS, workStatus waiting-human: sign-method decision + personal submission/payment by Oleksii pending. After grant: alta ≤1m, TIE ≤1m after alta (EX-17 + 790-012 at comisaría, ICPP cita), renuncia TP, keep all resguardos for larga duración (Nov 2027 mark).
+
 
 # Track-Record State — user_oleksii.md
 
