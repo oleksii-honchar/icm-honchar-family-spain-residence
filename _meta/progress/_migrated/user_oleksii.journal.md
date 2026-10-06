@@ -3,6 +3,12 @@
 
 Per-user state record (icm-specialist per-user convention). `userKey` matches the filename; identity from the Bensyne user bank. History carried over 2026-10-04 by explicit human instruction from the legacy shared `_meta/progress.md` (now removed); `change_history` events backfilled on stage output artifacts as same-user recovery proof.
 
+## 2026-10-06 — LIVE: ADMITIDA A TRÁMITE + requerimiento de tasas (05_longterm)
+- Comunicación de inicio del procedimiento expte. **450020260012292** (Oficina Extranjería Toledo, doc 05/10/2026, notified 06/10 09:43, CSV CNO-018e-8599-ee31-ee83-abbd-66c8-7eea-c65b). Stored: members/oleksii/stages/05_longterm/materials/2026-10-05_OFICINA-EXTRANJERIA-TOLEDO_comunicacion-inicio_REQUERIMIENTO-TASAS_expte-450020260012292_HONCHAR.pdf
+- **URGENT: pay 790-052 €10,94 + 790-062 €81,54 within 10 DÍAS HÁBILES (deadline ≈ 20/10/2026), then remit justificantes via ADAE/Mercurio.** Non-payment = desistimiento/archivo (art. 68 Ley 39/2015).
+- Resolution clock: 3 months from admisión ≈ 06/01/2027; silencio NEGATIVO if silent (appealable). timeline.md §1 updated.
+- Note: state format migrated to journal.md + jsonl (legacy user_oleksii.md in _migrated/).
+
 ## 2026-10-04 — LIVE: 04_filing started, filing plan written
 - Filing plan: members/oleksii/stages/04_filing/output/filing-plan.md (channel, docs, step order A–E, payment records, human-check gate).
 - Channel RESOLVED (Hoja 55): Mercurio, Oficina Extranjería Toledo (45). Silence correction: NEGATIVO after 3m.

@@ -12,9 +12,9 @@
 | Fecha | Estado | Fuente | Acción |
 |---|---|---|---|
 | 2026-10-04 17:14 | ✅ **REGISTRADA** (Oficina Toledo O00006307) | resguardo Mercurio | — |
-| — | ⏳ pendiente **ADMISIÓN A TRÁMITE** → genera tasación | MIS EXPEDIENTES + notificación electrónica | recordatorio calendario **2026-10-14 09:00** (creado, tuiteraz@gmail.com) |
-| — | ⏳ pago tasas 790-052 €10,94 + 790-062 €81,54 (10 días hábiles desde admisión) | tasación Mercurio | subir resguardos al expediente + registrar en `_shared/procedures-tasas.md` |
-| — | ⏳ **RESOLUCIÓN** — plazo **3 meses** desde admisión; ⚠️ **silencio NEGATIVO** (Hoja 55) | MIS EXPEDIENTES / DEHú | si llega silencio/negativa: **recurso** (reposición → contencioso), consultar ONG/abogado antes de dejar pasar |
+| 2026-10-06 09:43 | ✅ **ADMITIDA A TRÁMITE** — Comunicación de inicio, expte. **450020260012292** (firma Jefa de Sección, fecha documento 05/10/2026) | [materials/2026-10-05_OFICINA-EXTRANJERIA-TOLEDO_comunicacion-inicio_REQUERIMIENTO-TASAS_expte-450020260012292_HONCHAR.pdf](../materials/2026-10-05_OFICINA-EXTRANJERIA-TOLEDO_comunicacion-inicio_REQUERIMIENTO-TASAS_expte-450020260012292_HONCHAR.pdf) · CSV `CNO-018e-8599-ee31-ee83-abbd-66c8-7eea-c65b` | **REQUERIMIENTO DE TASAS: 10 DÍAS HÁBILES** → plazo ≈ **20/10/2026** |
+| ⏳ **URGENTE** | ⏳ pago tasas **790-052 €10,94 + 790-062 €81,54** (ambas expresamente requeridas) antes de ~20/10/2026, y **remitir justificantes a la Oficina vía ADAE/Mercurio** | requerimiento expte. 450020260012292 | si no: **desistimiento, archivo del procedimiento** (art. 68 Ley 39/2015) |
+| — | ⏳ **RESOLUCIÓN** — plazo **3 meses** desde admisión (≈ **06/01/2027**); ⚠️ **silencio NEGATIVO** (Hoja 55) | MIS EXPEDIENTES / DEHú | si llega silencio/negativa: **recurso** (reposición → contencioso), consultar ONG/abogado antes de dejar pasar |
 | — | ⏳ CONCESIÓN (si positiva) | notificación | iniciar cadena §2 |
 
 **Notificaciones electrónicas:** vigilar DEHú (10 días) + aviso email tuiteraz@gmail.com. Comprobar MIS EXPEDIENTES semanalmente hasta resolución.
