@@ -63,9 +63,11 @@ Según la **Hoja 55 del Ministerio** (modificación de autorización, art. 191):
 
 ## Registro (rellenar tras el pago)
 
-- Fecha pago 790-052: ___ · Importe: €10,94 · Nº resguardo: ___ · Paperless id: ___
-- Fecha pago 790-062: ___ · Importe: €81,54 · Nº resguardo: ___ · Quién lo abonó: ___
+- Fecha pago 790-052: **2026-10-07 (generado, adeudo en cuenta pendiente de cargo)** · Importe: €10,94 · Nº resguardo: **7900524568641** (ep. 2.5.2, provincia 45) · Adjuntado al expediente vía ADAE (categoría RT, tipo 22) · Paperless id: ___
+- Fecha pago 790-062: **2026-10-07 (generado, adeudo en cuenta pendiente de cargo)** · Importe: €81,54 · Nº resguardo: **7900624563702** (ep. 2.2, declarante PAYFIT RECURSOS HUMANOS SL B67154237, abonado por Oleksii) · Adjuntado al expediente vía ADAE (categoría RT, tipo 22) · Quién lo abonó: Oleksii (cuenta ES10…5655)
 - 790-012 TIE (post-concesión): fecha: ___ · Importe: €16,40 · Nº resguardo: ___
+
+> ⚠️ Forma de pago = **adeudo en cuenta** (IBAN ES1000493265172514155655) — el cargo bancario puede tardar unos días. Verificar cargo + descargar justificantes DEFINITIVOS cuando el banco los confirme; los números de justificante ya generados: 7900524568641 / 7900624563702. Copias en members/oleksii/stages/05_longterm/materials/.
 
 ## Notas y trampas
 
