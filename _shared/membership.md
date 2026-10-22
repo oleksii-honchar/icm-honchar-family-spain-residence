@@ -19,7 +19,7 @@ Notes:
 
 | Doc | Oleksii | Yuliia | Artem |
 |---|---|---|---|
-| TIE (protección temporal) | id 17 (Z0166205N, valid until 04/03/2026, auto-ext.) | — | — (no TIE PDF in paperless; present per padrón) |
+| TIE (protección temporal) | id 17 (Z0166205N, valid until 04/03/2026, auto-ext.) | — | — (no TIE PDF in paperless; scan on Drive "Honchar TIE 2026.pdf" archived 2026-10-21 at members/oleksii/stages/05_longterm/materials/2025-07-07_escaneo-TIE-vigente-anverso-reverso_Z0166205N_HONCHAR.pdf — front+back, card E28393733, personal number 792101; present per padrón) |
 | Padrón (15/01/2025, Oasis 63) | id 18 | id 18 | id 18 |
 | **Certificado de empadronamiento** | **id 177** (certificado oficial colectivo, 17/09/2026, firmado electrónicamente; sustituye id 172 volante informativo; añade id 177) |
 | Vida laboral (SS days) | id 25 (2024-12-12, 694 d), id 79 (2025-05-07, 849 d), **id 168 (2026-09-11, 1.341 d** = 3y 8m 3d; CEA GLZ3Z-RRYM5, verif. ≤12/09/2028) | — | — |
